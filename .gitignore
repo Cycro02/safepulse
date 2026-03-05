@@ -1,0 +1,42 @@
+# ═══════════════════════════════════════════
+# SafePulse - Git Ignore
+# ═══════════════════════════════════════════
+
+# Variables de entorno (NUNCA subir contraseñas)
+.env
+.env.local
+.env.production
+
+# Dependencias
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build del frontend
+frontend/dist/
+
+# Logs
+*.log
+logs/
+
+# Docker volumes locales
+postgres_data/
+
+# Certificados SSL
+certbot/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backups
+*.sql
+backups/
